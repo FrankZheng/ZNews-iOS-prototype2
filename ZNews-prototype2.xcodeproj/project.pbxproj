@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6BC03E31A08A10D00245352 /* NewsPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BC03E21A08A10D00245352 /* NewsPageViewController.m */; };
 		F6BF1E781A078C5100E7A5AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BF1E771A078C5100E7A5AD /* main.m */; };
 		F6BF1E7B1A078C5100E7A5AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BF1E7A1A078C5100E7A5AD /* AppDelegate.m */; };
 		F6BF1E7E1A078C5100E7A5AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BF1E7D1A078C5100E7A5AD /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F6BC03E11A08A10D00245352 /* NewsPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsPageViewController.h; sourceTree = "<group>"; };
+		F6BC03E21A08A10D00245352 /* NewsPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsPageViewController.m; sourceTree = "<group>"; };
 		F6BF1E721A078C5000E7A5AD /* ZNews-prototype2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZNews-prototype2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BF1E761A078C5100E7A5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6BF1E771A078C5100E7A5AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				F6BF1E9C1A078F4200E7A5AD /* ChildViewController.m */,
 				F6BF1E9F1A07B93600E7A5AD /* TableViewCell.h */,
 				F6BF1EA01A07B93600E7A5AD /* TableViewCell.m */,
+				F6BC03E11A08A10D00245352 /* NewsPageViewController.h */,
+				F6BC03E21A08A10D00245352 /* NewsPageViewController.m */,
 			);
 			path = "ZNews-prototype2";
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 			files = (
 				F6BF1E7E1A078C5100E7A5AD /* ViewController.m in Sources */,
 				F6BF1E7B1A078C5100E7A5AD /* AppDelegate.m in Sources */,
+				F6BC03E31A08A10D00245352 /* NewsPageViewController.m in Sources */,
 				F6BF1E781A078C5100E7A5AD /* main.m in Sources */,
 				F6BF1EA11A07B93600E7A5AD /* TableViewCell.m in Sources */,
 				F6BF1E9D1A078F4200E7A5AD /* ChildViewController.m in Sources */,
@@ -428,6 +434,7 @@
 				F6BF1E971A078C5100E7A5AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6BF1E981A078C5100E7A5AD /* Build configuration list for PBXNativeTarget "ZNews-prototype2Tests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +443,7 @@
 				F6BF1E9A1A078C5100E7A5AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

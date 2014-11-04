@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "NewsPageViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -25,10 +27,8 @@
     
     UINavigationController *navigationController = [[UINavigationController alloc] init];
     
+    NewsPageViewController *viewController = [[NewsPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
     
-    
-    
-    ViewController *viewController = [[ViewController alloc]init];
     [navigationController pushViewController:viewController animated:NO];
     
     self.window.rootViewController = navigationController;
